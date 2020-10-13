@@ -7,4 +7,4 @@ RUN mkdir -p "/home/${NB_USER}/swc-python" && \
     wget http://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip && \
     unzip python-novice-gapminder-data.zip && \
     chmod -R g+rw "/home/${NB_USER}/swc-python" && \
-    echo "PS1='${debian_chroot:+($debian_chroot)} \w\$ '" >> ~/.bashrc
+    echo "PS1='\$ '" >> ~/.bashrc
